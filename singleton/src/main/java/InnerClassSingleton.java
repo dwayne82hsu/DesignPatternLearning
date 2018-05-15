@@ -1,6 +1,6 @@
 public class InnerClassSingleton {
 
-	private static class SingletonHolder {
+	private static final class SingletonHolder {
 		private static final InnerClassSingleton instance = new InnerClassSingleton();
 	}
 
